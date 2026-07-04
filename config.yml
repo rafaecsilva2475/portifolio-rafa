@@ -1,0 +1,46 @@
+backend:
+  name: github
+  repo: rafaecsilva2475/portifolio-rafa
+  branch: main
+
+media_folder: "assets/images"
+public_folder: "/assets/images"
+
+collections:
+  - name: "portfolio"
+    label: "Portfólio"
+    files:
+      - name: "data"
+        label: "Informações do site"
+        file: "content/data.json"
+        format: json
+        fields:
+          - { label: "Nome", name: "name", widget: "string" }
+          - { label: "Cargo", name: "role", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - label: "Sobre mim"
+            name: "about"
+            widget: "list"
+            field: { label: "Parágrafo", name: "text", widget: "text" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "LinkedIn", name: "linkedin", widget: "string" }
+          - { label: "GitHub", name: "github", widget: "string" }
+          - label: "Skills"
+            name: "skills"
+            widget: "list"
+            fields:
+              - { label: "Ícone", name: "icon", widget: "string" }
+              - { label: "Nome", name: "name", widget: "string" }
+              - { label: "Descrição", name: "desc", widget: "text" }
+          - label: "Experiências"
+            name: "experience"
+            widget: "list"
+            fields:
+              - { label: "Período", name: "date", widget: "string" }
+              - { label: "Empresa", name: "company", widget: "string" }
+              - { label: "Cargo", name: "role", widget: "string" }
+              - { label: "Descrição", name: "desc", widget: "text" }
+              - label: "Tags"
+                name: "tags"
+                widget: "list"
+                field: { label: "Tag", name: "tag", widget: "string" }
