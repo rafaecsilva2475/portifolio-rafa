@@ -1,0 +1,51 @@
+{
+  "name": "Rafa",
+  "role": "Desenvolvedora Backend",
+  "tagline": "Construo APIs robustas e sistemas que escalam — com .NET, C# e SQL.",
+  "about": [
+    "Sou Rafa, desenvolvedora backend com foco em .NET/C# e integrações de API. Atualmente trabalho na FGF no desenvolvimento do projeto Simplex, onde atuo na construção e manutenção de endpoints, correção de bugs e melhoria contínua da arquitetura backend.",
+    "Antes da FGF, estagiei na EnRoTech como analista de Sistemas ERP — criando dashboards, relatórios SQL e integrações via API. Também passei pela Vale Card em suporte técnico, o que me deu uma visão sólida de resolução de problemas sob pressão.",
+    "Gosto de código limpo, boas práticas de versionamento e de entender o porquê por trás de cada decisão técnica."
+  ],
+  "email": "seuemail@email.com",
+  "linkedin": "https://linkedin.com/in/seuperfil",
+  "github": "https://github.com/rafaecsilva2475",
+  "skills": [
+    { "icon": "⚙️", "name": "C# / .NET", "desc": "Desenvolvimento backend, APIs RESTful, controllers, middleware e correção de bugs em produção." },
+    { "icon": "🗄️", "name": "SQL", "desc": "Queries, dashboards e relatórios com PostgreSQL e MySQL. Experiência com integração e análise de dados." },
+    { "icon": "🔌", "name": "APIs REST", "desc": "Construção e consumo de APIs, tratamento de status HTTP, autenticação e integração entre sistemas." },
+    { "icon": "🔀", "name": "Git / GitHub", "desc": "Controle de versão, automações e gestão de repositórios. Familiaridade com fluxos de revisão e CI." },
+    { "icon": "📐", "name": "TypeScript", "desc": "Tipagem estática e desenvolvimento de interfaces mais seguras e manuteníveis." },
+    { "icon": "🏃", "name": "Agile", "desc": "Experiência com Scrum e Kanban em ambientes de equipe multidisciplinar." }
+  ],
+  "experience": [
+    {
+      "date": "mar. 2025 — presente",
+      "company": "FGF",
+      "role": "Desenvolvedora Backend .NET/C#",
+      "desc": "Desenvolvimento e manutenção do projeto Simplex — API backend em .NET/C#. Construção de endpoints, tratamento de respostas HTTP, correção de bugs críticos em produção e melhoria da arquitetura de controllers.",
+      "tags": ["C# / .NET", "APIs REST", "Git", "Backend"]
+    },
+    {
+      "date": "nov. 2024 — mar. 2025",
+      "company": "EnRoTech",
+      "role": "Estagiária — Sistemas ERP",
+      "desc": "Criação e atualização de dashboards e relatórios comerciais via SQL (PostgreSQL e MySQL). Desenvolvimento de integrações via API e suporte técnico em C#.",
+      "tags": ["SQL", "PostgreSQL", "MySQL", "C#", "APIs", "Scrum"]
+    },
+    {
+      "date": "ago. 2023 — ago. 2024",
+      "company": "Vale Card",
+      "role": "Suporte Técnico",
+      "desc": "Atendimento via sistema SIAG, abertura e acompanhamento de tickets, uso de Jira e Eas para gestão de incidentes.",
+      "tags": ["Jira", "SIAG", "Suporte Técnico"]
+    },
+    {
+      "date": "fev. 2018 — ago. 2019",
+      "company": "Lions Clubs International",
+      "role": "Voluntária — Robótica & Programação",
+      "desc": "Apoio a adolescentes no aprendizado de programação básica e robótica. Reforço de lógica, algoritmos e estruturas de dados com aplicação prática em projetos reais.",
+      "tags": ["Robótica", "Lógica de Programação", "Ensino"]
+    }
+  ]
+}
